@@ -4,7 +4,6 @@ from fastapi.responses import JSONResponse
 
 app = FastAPI()
 
-# Configuración de Twilio
 account_sid = "AC24a72808ea8d248742bed8cb5422590d"
 auth_token = "773eb00dffdc2edb512b0e82aee9c6d3"
 twilio_phone_number = "+15087446170"
